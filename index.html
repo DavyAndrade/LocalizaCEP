@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LocalizaCEP - Consulte seu CEP</title>
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="icon" type="image/x-icon" href="./public/LocalizaCEP-logo.svg">
+</head>
+
+<body>
+  <main>
+    <section class="content">
+      <h1 class="content__title">Consulta CEP</h1>
+      <p class="content__subtitle">Digite seu CEP para consultar seu endereço</p>
+
+      <article class="content__card">
+        <form class="content__form" id="form-cep">
+          <div class="content__input-group">
+            <label for="cep" class="content__label">CEP</label>
+            <input type="text" id="cep" placeholder="00000-000" class="content__input" />
+          </div>
+          <button class="content__button" type="submit" id="consultaBtn" disabled>Consultar CEP</button>
+        </form>
+
+        <div id="resultado" class="content__result"></div>
+      </article>
+      <p class="content__powered-by">Powered by ViaCEP API</p>
+    </section>
+  </main>
+  <script src="./src/js/script.js"></script>
+</body>
+
+</html>

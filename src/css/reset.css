@@ -1,0 +1,90 @@
+/* -------------------------
+   RESET CSS
+   ------------------------- */
+
+/* Box sizing mais previsível */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove margens e paddings padrões */
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+/* Configuração do body */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: sans-serif;
+  background: #fff;
+  color: #000;
+}
+
+/* Remove decoração de listas */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove sublinhado padrão de links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Tabelas sem espaçamentos */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Inputs, buttons e textarea herdando fonte */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  border: none;
+  background: none;
+  color: inherit;
+  outline: none;
+}
+
+/* Botão com cursor de clique */
+button {
+  cursor: pointer;
+}
+
+/* Imagens responsivas */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Labels clicáveis */
+label {
+  cursor: pointer;
+}
+
+/* Remove animações/transições para usuários que preferem reduzir movimento */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
