@@ -16,12 +16,6 @@
   font: inherit;
 }
 
-/* Configuração do body */
-html,
-body {
-  height: 100%;
-}
-
 body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
