@@ -67,7 +67,7 @@ body {
   min-height: 100vh;
   font-size: var(--font-md);
   background: linear-gradient(to bottom, var(--blue-50), var(--indigo-100));
-  padding: var(--space-4);
+  padding: var(--space-16) var(--space-4);
 }
 
 main {
